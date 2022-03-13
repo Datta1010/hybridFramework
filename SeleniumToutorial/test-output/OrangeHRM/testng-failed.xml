@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [orangeHrm]">
+  <test parallel="none" name="Test(failed)">
+    <classes>
+      <class name="TestLayer.PimPageTest">
+        <methods>
+          <include name="validateclickSave"/>
+          <include name="tearDoun"/>
+          <include name="validateRadioButtom"/>
+          <include name="setup"/>
+          <include name="validateNicksNmae"/>
+          <include name="validateOnClickSaveButton"/>
+          <include name="validateClickOnEidtButton"/>
+          <include name="ValidateMarriedStatus"/>
+          <include name="validateAddEmplyeedatils"/>
+          <include name="validatePimpageurl"/>
+          <include name="validateclickOnsaveButton"/>
+          <include name="vlidateUrlOfPersonDatails"/>
+        </methods>
+      </class> <!-- TestLayer.PimPageTest -->
+      <class name="TestLayer.HomePageTest">
+        <methods>
+          <include name="validateClickOnBuzz"/>
+          <include name="validateclickOndirectory"/>
+          <include name="validateclickOnDashBord"/>
+          <include name="validatelickOnmaintenace"/>
+          <include name="validateLogoIsPresntOrNot"/>
+          <include name="validateclickOnreq"/>
+          <include name="validateclickOntime"/>
+          <include name="setup"/>
+          <include name="validateclickleave"/>
+          <include name="tearDoun"/>
+          <include name="validatecickAdmin"/>
+          <include name="validateclickOnperformance"/>
+          <include name="validateclickOnMy_Info"/>
+          <include name="validateclickpim"/>
+        </methods>
+      </class> <!-- TestLayer.HomePageTest -->
+      <class name="TestLayer.LoginpageTest">
+        <methods>
+          <include name="ValidatePassDispleyed"/>
+          <include name="validateenterPass"/>
+          <include name="tearDoun"/>
+          <include name="setup"/>
+          <include name="validatePassEnablaed"/>
+          <include name="clickLoginButton"/>
+          <include name="validateInterNameTextbox"/>
+        </methods>
+      </class> <!-- TestLayer.LoginpageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [orangeHrm] -->

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite parallel="none" name="Failed suite [SeleniumToutorial by groups]">
+  <test parallel="none" name="GRP-LoginPage(failed)">
+    <groups>
+      <run>
+        <include name="LoginPage"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="TestLayer.LoginpageTest">
+        <methods>
+          <include name="ValidatePassDispleyed"/>
+          <include name="validateenterPass"/>
+          <include name="validateUsernameEnabledStatus"/>
+          <include name="validatePassEnablaed"/>
+          <include name="validateUsernameDisplayedStatus"/>
+          <include name="clickLoginButton"/>
+          <include name="validateInterNameTextbox"/>
+        </methods>
+      </class> <!-- TestLayer.LoginpageTest -->
+    </classes>
+  </test> <!-- GRP-LoginPage(failed) -->
+</suite> <!-- Failed suite [SeleniumToutorial by groups] -->
